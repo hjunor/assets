@@ -1,0 +1,42 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Omni",
+  "debug.console.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 22,
+  "codesnap.backgroundColor": "none",
+  "codesnap.boxShadow": "none",
+  "editor.formatOnSave": true, //indenta o codigo
+  "editor.formatOnPaste": false,
+  //"editor.codeActionsOnSave": { "source.organizeImports": false }, // organiza os imports
+  "explorer.compactFolders": false,
+  "update.mode": "none",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": true,
+  //   "vsicons.dontShowNewVersionMessage": true,
+  "prettier.singleQuote": true,
+  //"files.autoSave": "onFocusChange",
+  "material-icon-theme.showWelcomeMessage": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.labelFormat": "short",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+  // /"workbench.statusBar.visible": false
+}
