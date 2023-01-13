@@ -30,7 +30,10 @@ function createWhatsappChat() {
   let whatsapp = document.createElement("img");
 
   whatsapp.setAttribute("id", "whatsapp-chat");
-  whatsapp.setAttribute("src", "./chat_online/whatsapp_icon.svg");
+  whatsapp.setAttribute(
+    "src",
+    "https://github.com/hjunor/assets/blob/master/cappta/chat_online/whatsapp_icon.svg"
+  );
   whatsapp.onclick = function () {
     window.open("https://api.whatsapp.com/send?phone=551143026166&text=Oi");
   };
